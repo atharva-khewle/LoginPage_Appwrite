@@ -1,0 +1,67 @@
+.canvas{
+
+}
+.circle {
+    top: -100vh;
+    left: -450vw;
+    position: absolute;
+    width: 550vw; 
+    height: 200vh;
+    border-radius: 90%; 
+    background: linear-gradient(to bottom left, #F6A2FF, #C2CEFF); /
+
+  }
+  .formdiv{
+    box-shadow: 1px 0px 50px rgba(26, 26, 26, 0.13);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* width: 400px; */
+    width: auto;
+    padding: 20px;
+    height: auto;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.473), #f6a2ff70); /* Define linear gradient */
+  }
+  .formheading{
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  form{
+    margin-bottom: 10px;
+    width: 350px;
+  }
+  .ads{
+    margin-top: 40px;
+  }
+  .loginimg{
+    padding-right: 20px;
+    border-radius: 7px;
+
+    max-height: 350px;
+  }
+
+  .goto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  @media (max-width: 1000px) {
+    .loginimg {
+      display: none;
+    }
+  }
+
+  .authpage{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fad1ff38;
+  }

@@ -1,0 +1,45 @@
+.profilepage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-color: #e6ebff65;
+  }
+  
+.pfp{
+  margin-top: 5vh;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  border-radius: 100%;
+}
+.circle2 {
+  top: -560vh;
+  z-index: -1;
+  position: absolute;
+  width: 200vw; 
+  height: 600vh;
+  border-radius: 90%;
+  background: linear-gradient(to bottom left, #F6A2FF, #C2CEFF); 
+
+}
+.name{
+  margin-top: 40px;
+}
+.text{
+
+  font-size: 30px;
+  font-weight: 400;
+}
+:hover .text{
+  max-width: 350px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button{
+  margin: 10px;
+}
